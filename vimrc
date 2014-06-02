@@ -81,6 +81,9 @@ set nojoinspaces
 " =============================================================================
 " Editing Window Improvements
 " =============================================================================
+" Allow mouse usage(?)
+set mouse=a
+
 " Show line numbers
 set number "relativenumber
 
