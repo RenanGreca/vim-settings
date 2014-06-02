@@ -82,7 +82,7 @@ set nojoinspaces
 " Editing Window Improvements
 " =============================================================================
 " Show line numbers
-set number relativenumber
+set number "relativenumber
 
 " When leaving buffer, hide it instead of closing it
 set hidden
@@ -108,15 +108,6 @@ set wildignore=*.o,*.pyc,*.class,*.bak,*~
 " =============================================================================
 " Motions
 " =============================================================================
-" Disable arrow keys; hjkl are way better anyways!
-noremap  <up>    <nop>
-inoremap <up>    <nop>
-noremap  <down>  <nop>
-inoremap <down>  <nop>
-noremap  <left>  <nop>
-inoremap <left>  <nop>
-noremap  <right> <nop>
-inoremap <right> <nop>
 
 " Backspace works as expected (across lines)
 set backspace=indent,eol,start
