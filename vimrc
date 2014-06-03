@@ -49,7 +49,7 @@ set encoding=utf8
 set fileformats=unix,dos,mac
 
 " Set column width to 79 characters, and display a line at the limit
-set textwidth=79 colorcolumn=+1
+" set textwidth=79 colorcolumn=+1
 
 " Don't wrap lines
 set nowrap
@@ -176,6 +176,9 @@ set completeopt-=preview
 
 " Show mode changes faster
 set ttimeoutlen=50
+
+" Paste from other apps works
+set paste
 
 " Jump to the last known cursor position when opening a file
 autocmd BufReadPost *
