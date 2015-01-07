@@ -12,7 +12,7 @@ written some code in `bundles.vim` that automatically clones its repository.
 Open up a terminal and enter the following commands:
 
     cd
-    git clone https://github.com/euclio/vim-settings.git .vim
+    git clone https://github.com/RenanGreca/vim-settings.git .vim
 
 If running Vim 7.4, you're done. Otherwise, enter
 
@@ -24,7 +24,7 @@ If running Vim 7.4, you're done. Otherwise, enter
 Open up cmd.exe and enter the following commands:
 
     cd %USERPROFILE%
-    git clone https://github.com/euclio/vim-settings.git vimfiles
+    git clone https://github.com/RenanGreca/vim-settings.git vimfiles
 
 If running Vim 7.4, you're done. Otherwise, enter
 
